@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+public class GUI1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String isim=JOptionPane.showInputDialog("lütfen isim gir:");
+		JOptionPane.showMessageDialog(null, "İSMİNİZ:"+isim);
+		String deger1=JOptionPane.showInputDialog("lütfen ilk sayıyı gir:");
+		String deger2=JOptionPane.showInputDialog("lütfen ikinci sayiyi gir:");
+		
+		int sayi1=Integer.parseInt(deger1);
+		int sayi2=Integer.parseInt(deger2);
+		int sonuc=sayi1*sayi2;
+		JOptionPane.showMessageDialog(null, "çarpım işlemini sonocu:"+sonuc);
+	}
+
+}
